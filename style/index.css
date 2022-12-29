@@ -1,0 +1,107 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+    height: 478px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+}
+
+.header {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    height: 36px;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 129px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+    width: 80px;
+    height: 2px;
+    margin: 0 auto 0;
+    padding: 28px 0 0 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 940px;
+    text-align: center;
+    Height: 478px
+
+}
+
+.team {
+    display: flex;
+    gap: 20px;
+    max-width: 940px;
+    padding-top: 43px;
+    align-items: center;
+
+}
+
+.name-card {
+    color: #333333;
+    height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.job-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    padding-top: 6px;
+    margin: 0;
+}
+
+.icon {
+    gap: 6px;
+    display: flex;
+    padding-top: 29px;
+    justify-content: center;
+}
+
+.icon-box {
+    display: flex;
+    background: #F5F5F5;
+    height: 14px;
+    width: 29px;
+
+}
+
+.icon-size {
+    margin-left: 8px;
+    margin-right: 7px;
+}
+
+.be {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.twitter {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.mail {
+    padding-bottom: 1px;
+}
+
+.text {
+    height: 35px;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
